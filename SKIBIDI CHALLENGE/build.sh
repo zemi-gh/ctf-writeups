@@ -11,8 +11,8 @@ echo ""
 rm -f challenge challenge.packed build/* /tmp/.x19f47e2b8a 2>/dev/null || true
 
 # Compile with maximum obfuscation
-echo "[*] Compiling ultimate challenge..."
-x86_64-linux-gnu-gcc ultimate_challenge.c -o challenge \
+echo "[*] Compiling challenge..."
+x86_64-linux-gnu-gcc challenge.c -o challenge \
     -O3 \
     -fno-stack-protector \
     -static \
